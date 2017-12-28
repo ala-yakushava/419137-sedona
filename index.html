@@ -28,7 +28,7 @@
 
       <section class="welcome">
         <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
-        <p><img src="img/background photo.jpg" alt="Захватывающий вид горного пейзажа в Седоне" widty="1200" height="773"></p>
+        <p><img src="img/background-photo.jpg" alt="Захватывающий вид горного пейзажа в Седоне" width="1200" height="773"></p>
         <div class="visually-hidden">
           <p><b>Welcome</b> <i>to the gorgeous</i> <strong>Sedona</strong></p>
           <p><em>«Because the Grand Canyon sucks!»</em></p>
@@ -90,10 +90,9 @@
         <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
         <p><b>Заинтересовались?</b></p>
         <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <p><img src="img/map.png" alt="Карта окрестностей Седоны" width="1280" height="747"></p>
-        <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
-          <fildset>
-            <legend>Поиск гостиницы в Седоне</legend>
+        <div class="modal-search">
+          <button class="button search" type="button">Поиск гостиницы в Седоне</button>
+          <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
             <p>
               <label for="date-in">Дата заезда:</label>
               <input type="text" name="dates" id="date-in" value="24 апреля 2017">
@@ -115,8 +114,9 @@
               <button class="more" type="button"><span class="visually-hidden">Больше</span></button>
             </p>
             <button class="button" type="submit">Найти</button>
-          </fildset>
-        </form>
+          </form>
+        </div>
+        <p><img src="img/map.png" alt="Карта окрестностей Седоны" width="1280" height="747"></p>
       </section>
     </main>
 
