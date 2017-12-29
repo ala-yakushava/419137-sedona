@@ -92,46 +92,50 @@
 
       <section class="search-hotels">
         <h2 class="visually-hidden">Поиск гостиницы в Седоне</h2>
-        <p><b>Заинтересовались?</b></p>
-        <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        <header class="search-hotels-title">
+          <p><b>Заинтересовались?</b></p>
+          <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+        </header>
         <div class="modal-search">
-          <button class="button search" type="button">Поиск гостиницы в Седоне</button>
+          <button class="button button-search" type="button">Поиск гостиницы в Седоне</button>
           <form class="search-form" method="get" action="https://echo.htmlacademy.ru">
             <p>
               <label for="date-in">Дата заезда:</label>
               <input type="text" name="dates" id="date-in" value="24 апреля 2017">
-              <button class="calendar" type="button"><span class="visually-hidden">Выберите дату заезда</span></button>
+              <button class="calendar btn" type="button"><span class="visually-hidden">Выберите дату заезда</span></button>
             </p>
             <p>
               <label for="date-out">Дата выезда:</label>
               <input type="text" name="dates" id="date-out" value="4 июня 2017">
-              <button class="calendar" type="button"><span class="visually-hidden">Выберите дату выезда</span></button>
+              <button class="calendar btn" type="button"><span class="visually-hidden">Выберите дату выезда</span></button>
             </p>
-            <p>
+            <p class="guests">
               <label for="people">Взрослые:</label>
-              <button class="less" type="button"><span class="visually-hidden">Меньше</span></button>
-              <input type="number" name="guests" id="people" value="2" min="1" step="1">
-              <button class="more" type="button"><span class="visually-hidden">Больше</span></button>
+              <button class="less btn" type="button"><span class="visually-hidden">Меньше</span></button>
+              <input type="text" name="guests" id="people" value="2" min="1" step="1">
+              <button class="more btn" type="button"><span class="visually-hidden">Больше</span></button>
+            </p>
+            <p class="guests children">
               <label for="children">Дети:</label>
-              <button class="less" type="button"><span class="visually-hidden">Меньше</span></button>
-              <input type="number" name="guests" id="children" value="0" min="0" step="1">
-              <button class="more" type="button"><span class="visually-hidden">Больше</span></button>
+              <button class="less btn" type="button"><span class="visually-hidden">Меньше</span></button>
+              <input type="text" name="guests" id="children" value="0" min="0" step="1">
+              <button class="more btn" type="button"><span class="visually-hidden">Больше</span></button>
             </p>
             <button class="button" type="submit">Найти</button>
           </form>
         </div>
-        <p><img src="img/map.png" alt="Карта окрестностей Седоны" width="1280" height="747"></p>
+        <p class="map"><img src="img/map.png" alt="Карта окрестностей Седоны" width="1280" height="747"></p>
       </section>
     </main>
 
-    <footer>
-      <p>#VisitSedona</p>
+    <footer class="main-footer">
+      <p><b>#VisitSedona</b></p>
       <ul class="social">
         <li><a class="social-twitter" href="#"><span class="visually-hidden">Твиттер</span></a></li>
         <li><a class="social-facebook" href="#"><span class="visually-hidden">Фейсбук</span></a></li>
         <li><a class="social-youtube" href="#"><span class="visually-hidden">Ютуб</span></a></li>
       </ul>
-      <p>Website by<a class="copyright" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="108" height="37" alt="HTML Academy"></a></p>
+      <p><span>Website by</span><a class="copyright" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-htmlacademy.svg" width="108" height="37" alt="HTML Academy"></a></p>
     </footer>
   </body>
 </html>

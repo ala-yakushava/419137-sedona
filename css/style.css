@@ -240,3 +240,196 @@ input[type="radio"].visually-hidden {
   width: 100%;
   height: 257px;
 }
+
+.search-hotels-title {
+  padding: 50px 0;
+}
+
+.search-hotels-title p {
+  width: 440px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.search-hotels-title b {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000;
+}
+
+.modal-search {
+  position: relative;
+
+  width: 570px;
+  margin: 0 auto;
+}
+
+.button {
+  width: 100%;
+
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+
+  border: none;
+}
+
+.button-search {
+  height: 86px;
+
+  background-color: #766357;
+}
+
+.search-form {
+  position: absolute;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 56px;
+
+  background-color: #fff;
+}
+
+.search-form p {
+  position: relative;
+
+  margin: 20px 0;
+}
+
+.search-form .guests {
+  width: 50%;
+}
+
+.search-form label {
+  display: inline-block;
+  width: 112px;
+  font-weight: bold;
+  }
+
+input {
+  width: 340px;
+  padding: 12px;
+  box-sizing: border-box;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  width: 40px;
+  height: 40px;
+
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.calendar {
+  background: url(../img/calendar.svg) no-repeat center center #f2f2f2;
+}
+
+input[name="guests"] {
+  width: 40px;
+  margin-left: 35px;
+
+  text-align: center;
+}
+
+.less {
+  left: 112px;
+}
+
+.less::before {
+  content: "-";
+}
+
+.more::before {
+  content: "+";
+}
+
+.search-form .button {
+  padding: 15px;
+  background-color: #81b3d2;
+}
+
+.map {
+  margin: 0;
+}
+
+.map img {
+  width: 100%;
+  height: 475px;
+}
+
+.main-footer {
+  display: flex;
+  align-items: center;
+
+  padding: 25px 0;
+}
+
+.main-footer p {
+  width: 33.33%;
+  margin: 0;
+
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+
+  width: 33.33%;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social a {
+  position: relative;
+
+  display: block;
+  width: 46px;
+  height: 50px;
+
+  background: url() no-repeat center center #81b3d2;
+}
+
+.social .social-twitter {
+  background-image: url(../img/twitter.svg);
+}
+
+.social .social-facebook {
+  background-image: url(../img/fb-icon.svg);
+}
+
+.social .social-youtube {
+  background-image: url(../img/youtube.svg);
+}
+
+.main-footer b {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000;
+}
+
+.main-footer span {
+  line-height: 40px;
+  vertical-align: top;
+}
